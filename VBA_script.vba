@@ -125,9 +125,9 @@ Columns("Q").ColumnWidth = 25
 Dim numrowsx As Integer
 numrowsx = (Range("k1").End(xlDown).Row)
 For z = 2 To numrowsx
-    If Cells(z, 11).Value < 0 Then
-        Cells(z, 11).Interior.Color = vbRed
-    Else: Cells(z, 11).Interior.Color = vbGreen
+    If Cells(z, 10).Value < 0 Then
+        Cells(z, 10).Interior.Color = vbRed
+    Else: Cells(z, 10).Interior.Color = vbGreen
     End If
 Next z
     
